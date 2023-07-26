@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>模板</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="tempContainer">
+		<div id="date" class="display-section">
+	       <h2>当前时间:</h2>
+	       <p id="currentDate"></p>
+	    </div>
+          <span id="temp">25</span><span style="margin-left: 10px;"></span>
+	    <div id="timeContainer">
+         <span id="time">10:30 PM</span>
+        </div>
+    </div>
+	
+    <div id="buttons">
+      <button id="button1">舵机开关</button>
+      <button id="button2">舵机开关</button>
+      <button id="button3">灯泡开关</button>
+      <button id="button4">灯泡开关</button>
+    </div>
+
+    <p id="id">1</p>
+    <p id="temperature"></p>
+    <p id="humidity"></p>
+    <p id="ultrasonic"></p>
+    <p id="brightness"></p>
+    <p id="pressure"></p>
+    <p id="xhh"></p>
+
+  </body>
+  <script src="/service/script.js"></script>
+  <script src="/service/hh.js"></script>
+</html>

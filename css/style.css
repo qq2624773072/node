@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.display-section {
+    width: 50%;
+    margin: 2%;
+}
+#tempContainer,
+#timeContainer {
+  margin-right: 20px;
+}
+
+#temp {
+  font-size: 3em;
+  text-align: right;
+}
+
+#time {
+  font-size: 2em;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#buttons {
+  margin-left: 20px;
+}
+
+button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c67e8;
+}
